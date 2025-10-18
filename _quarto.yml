@@ -1,11 +1,24 @@
 project:
-  output-dir: docs   # <- so GitHub Pages can serve from /docs
+  output-dir: docs
+
+execute:
+  echo: false
+  warning: false
+  freeze: auto
+  dpi: 120
 
 format:
   revealjs:
-    theme: [default]
+    width: 1280          # 16:9 canvas
+    height: 720
+    margin: 0.06
     slide-number: true
     transition: fade
-    embed-resources: true   # bundle everything into the HTML
+    controls: true
+    hash: true           # deep-links like #/problema work reliably
     code-copy: true
+    embed-resources: true
+    css: styles.css      # <- add our CSS
+    self-contained: false
     toc: false
+    toc-depth: 2         # show sections and subsections    

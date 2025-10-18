@@ -1,0 +1,39 @@
+/* Keep slide content inside the frame */
+.reveal .slides section {
+  overflow: hidden;
+}
+
+/* Scale any media to the slide width */
+.reveal section img,
+.reveal section canvas,
+.reveal section svg,
+.reveal section iframe,
+.reveal section .plotly,
+.reveal section video {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+/* Top-left back button style (smaller, non-obtrusive) */
+.back-btn {
+  position: absolute; top: 14px; left: 14px;
+  background: #7f8c8d; color: #fff; padding: 8px 12px;
+  border-radius: 8px; font-size: .85rem; text-decoration: none;
+  z-index: 10;
+}
+
+/* Responsive 2–4 column menu grid */
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px; margin-top: 18px;
+}
+.menu-grid a {
+  display: block; text-decoration: none; color: #fff;
+  padding: 16px 20px; border-radius: 12px; text-align: center;
+  box-shadow: 0 6px 14px rgba(0,0,0,.12); font-size: 1.05rem;
+}
+.menu-blue  { background:#3498db; }
+.menu-red   { background:#e74c3c; }
+.menu-green { background:#2ecc71; }
+.menu-yellow{ background:#f1c40f; color:#2c3e50; }

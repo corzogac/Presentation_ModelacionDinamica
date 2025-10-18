@@ -18,16 +18,20 @@ format: revealjs
 
 ## Menú Interactivo {#menu}
 
-<div style="display:flex;justify-content:space-around;margin-top:30px;flex-wrap:wrap;gap:14px;">
-  <a href="#/problema" style="text-decoration:none;color:white;background-color:#3498db;padding:16px 24px;border-radius:12px;font-size:1.0em;text-align:center;">1. El Problema y su Lenguaje</a>
-  <a href="#/metodo" style="text-decoration:none;color:white;background-color:#e74c3c;padding:16px 24px;border-radius:12px;font-size:1.0em;text-align:center;">2. La Solución Numérica</a>
-  <a href="#/aplicacion" style="text-decoration:none;color:white;background-color:#2ecc71;padding:16px 24px;border-radius:12px;font-size:1.0em;text-align:center;">3. De Escenarios a Optimización</a>
-  <a href="#/filosofia" style="text-decoration:none;color:#2c3e50;background-color:#f1c40f;padding:16px 24px;border-radius:12px;font-size:1.0em;text-align:center;">4. La Filosofía del Modelador</a>
+## Menú Interactivo {#menu}
+
+<div class="menu-grid">
+  <a class="menu-blue"  href="#/problema">1. El Problema y su Lenguaje</a>
+  <a class="menu-red"   href="#/metodo">2. La Solución Numérica</a>
+  <a class="menu-green" href="#/aplicacion">3. De Escenarios a Optimización</a>
+  <a class="menu-yellow" href="#/filosofia">4. La Filosofía del Modelador</a>
 </div>
 
-<p style="margin-top: 24px; text-align: center;">
+<p style="margin-top: 10px; text-align: center;">
   Haz clic en una sección o usa las flechas.
 </p>
+
+<a href="#/menu" class="back-btn">↩️ Volver al Menú</a>
 
 ---
 
@@ -43,6 +47,8 @@ format: revealjs
  
 El primer paso es traducir el problema físico a **ecuaciones matemáticas**.
 
+<a href="#/menu" class="back-btn">↩️ Volver al Menú</a>
+
 ---
 
 ## De Problemas a Ecuaciones
@@ -52,7 +58,10 @@ El primer paso es traducir el problema físico a **ecuaciones matemáticas**.
 
 Estas no son solo fórmulas: son **modelos conceptuales** de la realidad.
 
+<a href="#/menu" class="back-btn">↩️ Volver al Menú</a>
+
 ---
+
 
 ## ¿Cómo se Resuelven estas Ecuaciones? {#metodo}
 
@@ -69,8 +78,7 @@ Usamos **esquemas numéricos**:
 
 ---
 
-## Animación simple (matplotlib → JS en HTML)
-
+## Animación 
 
 ```{python}
 import numpy as np
@@ -90,12 +98,6 @@ def update(frame):
 
 ani = FuncAnimation(fig, update, frames=120, interval=40)
 plt.close(fig)  # evita que salga una figura estática antes de la animación
-
-```
-
-
-
-```{python}
 
 from IPython.display import HTML
 HTML(ani.to_jshtml())  # animación incrustada que funciona en GitHub Pages
@@ -146,7 +148,7 @@ Paso 2: Búsqueda de soluciones → políticas óptimas
 - La ética del modelador: impacto social y ambiental
 ---   
 
-## Resumen y Filosofía {#filosofia}
+## Resumen y Filosofía {#filosofiaFinal}
 
 Problema → Ecuaciones → Numérico → Escenarios → Optimización
 
