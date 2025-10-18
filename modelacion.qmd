@@ -20,11 +20,13 @@ format: revealjs
 
 ## Menú Interactivo {#menu}
 
-<div class="menu-grid">
-  <a class="menu-blue"  href="#/problema">1. El Problema y su Lenguaje</a>
-  <a class="menu-red"   href="#/metodo">2. La Solución Numérica</a>
-  <a class="menu-green" href="#/aplicacion">3. De Escenarios a Optimización</a>
-  <a class="menu-yellow" href="#/filosofia">4. La Filosofía del Modelador</a>
+<div class="menu-board">
+  <div class="menu-grid-2">
+    <a class="menu-card menu-blue"   href="#/problema">1. El Problema y su Lenguaje</a>
+    <a class="menu-card menu-red"    href="#/metodo">2. La Solución Numérica</a>
+    <a class="menu-card menu-green"  href="#/aplicacion">3. De Escenarios a Optimización</a>
+    <a class="menu-card menu-yellow" href="#/filosofia">4. La Filosofía del Modelador</a>
+  </div>
 </div>
 
 <p style="margin-top: 10px; text-align: center;">
@@ -37,9 +39,6 @@ format: revealjs
 
 ## Problemas del Agua y su Representación {#problema}
 
-<div style="position:absolute;top:20px;left:20px;">
-  <a href="#/menu" style="text-decoration:none;color:white;background-color:#7f8c8d;padding:8px 12px;border-radius:8px;font-size:0.8em;">↩️ Volver al Menú</a>
-</div>
 
 - Inundaciones y sequías  
 - Calidad del agua y transporte de contaminantes  
@@ -65,9 +64,6 @@ Estas no son solo fórmulas: son **modelos conceptuales** de la realidad.
 
 ## ¿Cómo se Resuelven estas Ecuaciones? {#metodo}
 
-<div style="position:absolute;top:20px;left:20px;">
-  <a href="#/menu" style="text-decoration:none;color:white;background-color:#7f8c8d;padding:8px 12px;border-radius:8px;font-size:0.8em;">↩️ Volver al Menú</a>
-</div>
 
 Usamos **esquemas numéricos**:
 
@@ -75,6 +71,8 @@ Usamos **esquemas numéricos**:
 - Solución paso a paso sobre la malla  
 
 **Claves**: Condiciones de borde y **número de Courant**.
+
+<a href="#/menu" class="back-btn">↩️ Volver al Menú</a>
 
 ---
 
