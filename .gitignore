@@ -1,0 +1,19 @@
+# Quarto/Jupyter cache
+.quarto/
+_freeze/
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+venv/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+/.quarto/
+**/*.quarto_ipynb

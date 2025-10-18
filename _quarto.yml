@@ -1,0 +1,11 @@
+project:
+  output-dir: docs   # <- so GitHub Pages can serve from /docs
+
+format:
+  revealjs:
+    theme: [default]
+    slide-number: true
+    transition: fade
+    embed-resources: true   # bundle everything into the HTML
+    code-copy: true
+    toc: false
