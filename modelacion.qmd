@@ -18,8 +18,6 @@ format: revealjs
 
 ## Menú Interactivo {#menu}
 
-## Menú Interactivo {#menu}
-
 <div class="menu-board">
   <div class="menu-grid-2">
     <a class="menu-card menu-blue"   href="#/problema">1. El Problema y su Lenguaje</a>
@@ -118,43 +116,50 @@ fig
 
 ```
 
-
-```{python}
-fig.show()
-```
-
 ---
 
 ## Animación compleja (simulación hidráulica)
-De Escenarios a Optimización {#aplicacion}
 
-Escenarios: “¿Qué pasaría si…?”
+<a href="#/menu" class="back-btn">↩️ Volver al Menú</a>
 
-Optimización: “¿Cuál es la mejor opción?”
+---
 
-Paso 1: Calibración → confianza
-Paso 2: Búsqueda de soluciones → políticas óptimas
+## De Escenarios a Optimización {#aplicacion}
+
+**Escenarios**: "¿Qué pasaría si…?"
+
+**Optimización**: "¿Cuál es la mejor opción?"
+
+- **Paso 1**: Calibración → confianza
+- **Paso 2**: Búsqueda de soluciones → políticas óptimas
+
+<a href="#/menu" class="back-btn">↩️ Volver al Menú</a>
 ---
 
 ## La Filosofía del Modelador {#filosofia}
-<div style="position:absolute;top:20px;left:20px;">
-  <a href="#/menu" style="text-decoration:none;color:white;background-color:#7f8c8d;padding:8px 12px;border-radius:8px;font-size:0.8em;">↩️ Volver al Menú</a>
-</div>  
+
 - Modelar es un arte y una ciencia
-- La simplicidad es clave: “Todo lo simple es falso, pero todo lo complejo es inútil.” – H. L. Mencken
-- Validar y verificar: “Confía, pero verifica.” – R. Reagan
+- La simplicidad es clave: "Todo lo simple es falso, pero todo lo complejo es inútil." – H. L. Mencken
+- Validar y verificar: "Confía, pero verifica." – R. Reagan
 - La ética del modelador: impacto social y ambiental
+
+<a href="#/menu" class="back-btn">↩️ Volver al Menú</a>
+
 ---   
 
 ## Resumen y Filosofía {#filosofiaFinal}
 
 Problema → Ecuaciones → Numérico → Escenarios → Optimización
 
-“Un viaje de mil millas comienza con un solo paso.” — Lao-Tsé
+"Un viaje de mil millas comienza con un solo paso." — Lao-Tsé
 
---- 
+<a href="#/menu" class="back-btn">↩️ Volver al Menú</a>
+
+---
 
 ## ¡Gracias!
 ### Prof. Gerald Corzo
+
+<a href="#/menu" class="back-btn">↩️ Volver al Menú</a>
 
 
